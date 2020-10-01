@@ -2,8 +2,7 @@ todo-backend-site
 =================
 
 Source for www.todobackend.com. This is a [middleman](https://middlemanapp.com)-based static website. 
-
-built and deployed to S3 via: [![CircleCI](https://circleci.com/gh/TodoBackend/todo-backend-site.svg?style=svg)](https://circleci.com/gh/TodoBackend/todo-backend-site)
+Built and deployed to S3 via: [![CircleCI](https://circleci.com/gh/TodoBackend/todo-backend-site.svg?style=svg)](https://circleci.com/gh/TodoBackend/todo-backend-site)
 
 ## Adding a new implementation listing
 To add a new Todo-Backend implementation:
@@ -14,8 +13,8 @@ To add a new Todo-Backend implementation:
 ## Running a local instance of the site from source
 - *Make sure you have git submodules set up with `git submodule update --init --recursive`*
 - Install required gems with `bundle install`
-- build the site with `bundle exec rake build`
-- run a dev server with `bundle exec middleman`
+- Build the site with `bundle exec rake build`
+- Run a dev server with `bundle exec middleman`
 
 ## Running the site via docker
 A dockerized version of the site is available on Docker Hub as [moredip/todo-backend-site](https://hub.docker.com/r/moredip/todo-backend-site).
